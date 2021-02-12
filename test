@@ -1,0 +1,30 @@
+Program:
+package Java_Basics;
+
+public class middleValue {
+
+	public static void main(String[] args) {
+		
+		String str = "W E L C O M E";
+		String m = "";
+		
+		int len = str.length();
+		 
+        // Finding middle index of string
+        int middle = len / 2;
+        
+        System.out.println(middle);
+        
+        System.out.println(str.charAt(middle));
+        
+        for(int i=str.length()-1;i>=7;i--)
+        {
+        	for(int j=5;j<=i;j++)
+        	{
+        		
+        		m = m+str.charAt(j);
+        		System.out.println(m);
+        	}
+        }
+	}
+} 
